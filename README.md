@@ -45,7 +45,7 @@ add the ability to handle special characters - done
 add unit tests  - researching
 
 #Implementation:
-1. Handle special cases, like ending the seesion, or sending null input.
+1. Handle special cases, like ending the session, or sending null input.
 2. Depending on the input the data structure would be different
 Check is the string is all integers . Implement mathematical actions per description.
 Check if it has spaces and integers only --> if yes, do the computations per req.

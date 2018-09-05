@@ -40,17 +40,14 @@ if you make any assumptions, please list them in the readme.
 if you have any questions please let me know.
 
 If you really want to wooooo me:
-add the ability to handle negative numbers
-add the ability to handle special characters
-add unit tests 
+add the ability to handle negative numbers - done
+add the ability to handle special characters - done
+add unit tests  - researching
 
 #Implementation:
-1. Depending on the input the data structure would be different
-Check is the string is all integers --> if yes, write "This is the only number in the input, so this is the max"
-if no,
+1. Handle special cases, like ending the seesion, or sending null input.
+2. Depending on the input the data structure would be different
+Check is the string is all integers . Implement mathematical actions per description.
 Check if it has spaces and integers only --> if yes, do the computations per req.
-if no -
+Otherwise, make a dictionary from the symbols (special characters and letters, excluding spaces) and their count, rpint out.
 
-
-special 
-Simpliest case: no spaces, no special characters
